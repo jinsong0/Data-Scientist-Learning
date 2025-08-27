@@ -1,3 +1,4 @@
+#裁剪音频时长
 from pydub import AudioSegment
 # 定义输入文件的完整路径
 input_file = r"C:\Users\ASUS\Desktop\歌曲\miku_虫儿飞.wav"
@@ -13,4 +14,5 @@ output_file = r"C:\Users\ASUS\Desktop\歌曲\miku_虫儿飞.wav"
 # 导出裁剪后的音频文件
 cropped_audio.export(output_file, format="wav")
 # 打印完成信息
+
 print("裁剪完成，保存为：", output_file)
